@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 700px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  
+}
+.container{
+    display: grid;  
+    grid-template-columns: 24% 24% 24% 24% ;
+    grid-template-rows: 30% 30% 30%;
+    padding: 25px;
+    background-color: aquamarine; 
+    gap: 10px;
+}
+.box{
+    border: 1px solid red;
+    padding: 50px;
+    font-size: 40px;
+    background-color: white;
+    text-align: center;
+    cursor: move; /* this is related to drag & drop */
+}
+.box.over {
+    border: 3px dotted rgb(173, 169, 169);
+  }
+ 
